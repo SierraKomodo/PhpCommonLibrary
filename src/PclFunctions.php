@@ -19,6 +19,35 @@ namespace SierraKomodo\PhpCommonLibrary;
 class PclFunctions
 {
     /**
+     * Emulates functionality of `$iif()` as it exists in mSL. If $parCondition evaluates to `true`, return `$parTrue`,
+     *   otherwise return `$parFalse`
+     *
+     * @param mixed $parCondition The condition to check
+     * @param mixed $parTrue Default: `null`. The output if `$parCondition` evaluates to `true`
+     * @param mixed $parFalse Default: `null`. The output if `$parCondition` evaluates to `false`
+     * @param bool $parStrict Default: `false`. If set to `true`, strict comparisons (`=== true` vs `== true`) will be
+     *   used
+     * @return mixed `$parTrue` or `$parFalse`
+     */
+    public static function iif($parCondition, $parTrue = null, $parFalse = null, bool $parStrict = false)
+    {
+        if ($parStrict === true) {
+            if ($parCondition === true) {
+                return $parTrue;
+            } else {
+                return $parFalse;
+            }
+        } else {
+            if ($parCondition) {
+                return $parTrue;
+            } else {
+                return $parFalse;
+            }
+        }
+    }
+    
+    
+    /**
      * Removes double/triple/etc spaces from a string
      *
      * @param string $parString The string to remove excess spaces from
