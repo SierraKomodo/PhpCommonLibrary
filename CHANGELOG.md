@@ -9,3 +9,5 @@ The contents of this changelog are focused on changes to overall behaviour of th
 ## [UNRELEASED]
 ### Added
  - `PclExceptionWithCode::class` - Extension of `\Exception` to provide predefined 'exception codes' for debugging/error handling purposes
+ - `PclFunctions::class` - Class of common functions used in other PHP projects, designed to be used statically.
+ - `PclFunctions::stripExcessSpaces()` - Removes double/triple/etc spaces from a string
