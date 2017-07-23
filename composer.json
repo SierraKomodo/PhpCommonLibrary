@@ -1,0 +1,35 @@
+{
+  "name": "sierrakomodo/phpcommon",
+  "description": "A set of common PHP functions used in other projects",
+  "homepage": "https://github.com/SierraKomodo/php-common",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Sierra Brown (SierraKomodo)",
+      "role": "Developer",
+      "email": "sierrarazgriz@gmail.com",
+      "homepage": "https://github.com/SierraKomodo"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/SierraKomodo/php-common/issues",
+    "wiki": "https://github.com/SierraKomodo/php-common/wiki",
+    "source": "https://github.com/SierraKomodo/php-common"
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SierraKomodo\\PhpCommonLibrary\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SierraKomodo\\PhpCommonLibrary\\Tests\\": "tests/"
+    }
+  }
+}
