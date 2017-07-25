@@ -18,7 +18,7 @@ use Exception;
  *   constants, which SHOULD be used whenever that exception is thrown.
  *
  * @package SierraKomodo\PhpCommonLibrary
- * @version 0.1.0-ALPHA In development.
+ * @version 1.0.0 First full release
  */
 class PclExceptionWithCode extends Exception
 {

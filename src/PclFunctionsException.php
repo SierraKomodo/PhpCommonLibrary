@@ -17,7 +17,7 @@ namespace SierraKomodo\PhpCommonLibrary;
  *   messages can provide specific information in logs for debugging and bug fixing.
  *
  * @package SierraKomodo\PhpCommonLibrary
- * @version 0.1.0-ALPHA In development.
+ * @version 1.0.0 First full release
  */
 class PclFunctionsException extends PclExceptionWithCode
 {

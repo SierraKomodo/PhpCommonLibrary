@@ -14,12 +14,12 @@ namespace SierraKomodo\PhpCommonLibrary;
  *   instantiate an object of this class.
  *
  * @package SierraKomodo\PhpCommonLibrary
- * @version 0.1.0-ALPHA In development.
+ * @version 1.0.0 First full release
  */
 class PclFunctions
 {
     /**
-     * Emulates functionality of `$iif()` as it exists in mSL. If $parCondition evaluates to `true`, return `$parTrue`,
+     * Emulates functionality of `$iif()` as it exists in mSL. If `$parCondition` evaluates to `true`, return `$parTrue`,
      *   otherwise return `$parFalse`
      *
      * @param mixed $parCondition The condition to check
