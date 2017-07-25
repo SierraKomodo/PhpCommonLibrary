@@ -5,7 +5,6 @@ namespace SierraKomodo\PhpCommonLibrary\Tests;
 use PHPUnit\Framework\TestCase;
 use SierraKomodo\PhpCommonLibrary\PclFunctions;
 
-
 class PclFunctionsTest extends TestCase
 {
     public function testIifReturnsTrueOutput()

@@ -8,7 +8,6 @@
 
 namespace SierraKomodo\PhpCommonLibrary;
 
-
 /**
  * Extension of \Exception to provide predefined 'exception codes' for debugging/error handling purposes
  *
@@ -21,5 +20,4 @@ namespace SierraKomodo\PhpCommonLibrary;
  */
 class PclFunctionsException extends PclExceptionWithCode
 {
-
 }

@@ -8,7 +8,6 @@
 
 namespace SierraKomodo\PhpCommonLibrary;
 
-
 /**
  * Class of common functions used in other PHP projects, designed to be used statically. There should be no need to
  *   instantiate an object of this class.

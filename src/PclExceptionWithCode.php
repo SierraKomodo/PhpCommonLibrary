@@ -10,7 +10,6 @@ namespace SierraKomodo\PhpCommonLibrary;
 
 use Exception;
 
-
 /**
  * Extension of \Exception to provide predefined 'exception codes' for debugging/error handling purposes
  *
