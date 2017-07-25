@@ -11,7 +11,6 @@ namespace SierraKomodo\PhpCommon\Tests;
 use PHPUnit\Framework\TestCase;
 use SierraKomodo\PhpCommonLibrary\PclExceptionWithCode;
 
-
 class PclExceptionWithCodeTest extends TestCase
 {
     public function testExceptionDefaultsToUndefinedError()
