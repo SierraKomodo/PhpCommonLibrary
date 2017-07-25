@@ -3,8 +3,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/sierrakomodo/phpcommonlibrary/v/unstable)](//packagist.org/packages/sierrakomodo/phpcommonlibrary)
 [![Total Downloads](https://poser.pugx.org/sierrakomodo/phpcommonlibrary/downloads)](https://packagist.org/packages/sierrakomodo/phpcommonlibrary)
 [![License](https://poser.pugx.org/sierrakomodo/phpcommonlibrary/license)](https://github.com/SierraKomodo/PhpCommonLibrart/blob/master/LICENSE)
-[![StyleCI](https://styleci.io/repos/89872921/shield?branch=master)](https://styleci.io/repos/89872921)
-[![Build Status](https://travis-ci.org/SierraKomodo/INILib.svg?branch=master)](https://travis-ci.org/SierraKomodo/inilib)
+[![StyleCI](https://styleci.io/repos/98065750/shield?branch=master)](https://styleci.io/repos/89872921)
+[![Build Status](https://travis-ci.org/SierraKomodo/PhpCommonLibrary.svg?branch=master)](https://travis-ci.org/SierraKomodo/inilib)
 
 A PHP library of common functions and classes used by other libraries and apps written by SierraKomodo.
 
