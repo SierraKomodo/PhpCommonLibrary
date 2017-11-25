@@ -75,8 +75,8 @@ class PclFunctionsTest extends TestCase
         self::assertEquals('odd', PclFunctions::iif(33 % 2 == 0, 'even', 'odd'));
         
         // Example #2 - Strict condition checking
-        self::assertTrue(PclFunctions::iif(1, TRUE, FALSE));
-        self::assertFalse(PclFunctions::iif(1, TRUE, FALSE, TRUE));
+        self::assertTrue(PclFunctions::iif(1, true, false));
+        self::assertFalse(PclFunctions::iif(1, true, false, true));
     }
     
     
