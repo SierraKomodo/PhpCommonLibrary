@@ -43,7 +43,7 @@ class PclFunctionsTest extends TestCase
     
     public function testStripExcessSpacesRemovesChainOfSpaces()
     {
-        $testString   = "Test            string";
+        $testString = "Test            string";
         $resultString = "Test string";
         
         self::assertEquals($resultString, PclFunctions::stripExcessSpaces($testString));
@@ -52,7 +52,7 @@ class PclFunctionsTest extends TestCase
     
     public function testStripExcessSpacesTrim()
     {
-        $testString   = "Test            string  \r\n";
+        $testString = "Test            string  \r\n";
         $resultString = "Test string";
         
         self::assertEquals($resultString, PclFunctions::stripExcessSpaces($testString, true));
@@ -61,9 +61,30 @@ class PclFunctionsTest extends TestCase
     
     public function testStripExcessSpacesDoesNotTrimByDefault()
     {
-        $testString   = "Test            string  \r\n";
+        $testString = "Test            string  \r\n";
         $resultString = "Test string \r\n";
         
         self::assertEquals($resultString, PclFunctions::stripExcessSpaces($testString));
+    }
+    
+    
+    public function testIifWikiExamples()
+    {
+        // Example #1 - Checking if a number is even or odd
+        self::assertEquals('even', PclFunctions::iif(32 % 2 == 0, 'even', 'odd'));
+        self::assertEquals('odd', PclFunctions::iif(33 % 2 == 0, 'even', 'odd'));
+        
+        // Example #2 - Strict condition checking
+        self::assertTrue(PclFunctions::iif(1, true, false));
+        self::assertFalse(PclFunctions::iif(1, true, false, true));
+    }
+    
+    
+    public function testStripExcessSpacesExamples()
+    {
+        // Example #1 - Cleaning excess spaces from a user input
+        $string = '  This is   a string  ';
+        self::assertEquals(' This is a string ', PclFunctions::stripExcessSpaces($string));
+        self::assertEquals('This is a string', PclFunctions::stripExcessSpaces($string, true));
     }
 }
